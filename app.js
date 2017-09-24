@@ -1,8 +1,6 @@
 (function () {
     'use strict';
-
-    angular.module('myFirstApp', []);
-
+    angular.module('myFirstApp', [])
     .controller('MyFirstController', function ($scope) {
         $scope.name = "jason";
         $scope.sayHello = function () {
@@ -11,4 +9,4 @@
 
     });
 
-})(); // ()();IIFE (search what it is)
+})(); //IIFE
